@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data files (too large for git)
+data/raw/*.csv
+data/processed/*.pkl
+data/processed/*.h5
+*.csv
+*.pkl
+*.h5
+
+# Model checkpoints
+*.hdf5
+*.h5
+*.pt
+*.pth
+models/checkpoints/
+
+# Results
+results/
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Optuna database
+optuna.db
+*.db
+
+# Temporary files
+*.log
+*.tmp
